@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Parcial 2</title>
+    <link rel="stylesheet" th:href="@{/css/index.css}">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="card">
+                <form id="form">
+                    <div class="card-head">
+                        <span>Parcial 1</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="input-container">
+                            <input type="text" name="text" id="text" placeholder="ingresar texto" />
+                            <button type="submit">Ingresar</button>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+<script th:inline="javascript">
+    let form = document.getElementById("form")
+    let text = form.elements.text
+    let data = [];
+
+    form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        if(text.value.trim() !== ""){
+            data.push(text.value)
+            console.log(data)
+        }
+        text.value = ""
+    })
+</script>
+</html>
