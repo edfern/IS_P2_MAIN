@@ -15,7 +15,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <snapshots />
           <id>central</id>
           <name>8884a686b6d5-releases</name>
-          <url>http://172.18.0.2:8081/artifactory/test-number-two</url>
+          <url>http://172.18.0.2:8081/artifactory/ingenieria_software_parcial2</url>
         </repository>
       </repositories>
       <pluginRepositories>
@@ -23,7 +23,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           <snapshots />
           <id>central</id>
           <name>8884a686b6d5-releases</name>
-          <url>http://172.18.0.2:8081/artifactory/test-number-two</url>
+          <url>http://172.18.0.2:8081/artifactory/ingenieria_software_parcial2</url>
         </pluginRepository>
       </pluginRepositories>
       <id>artifactory</id>
