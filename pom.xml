@@ -16,32 +16,42 @@
     <properties>
         <java.version>11</java.version>
     </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+            <artifactId>spring-boot-starter</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
+            <groupId>gt.edu.umg.ingenieria.sistemas.ingenieria_software.parcial2</groupId>
+            <artifactId>selection_sort</artifactId>
+            <version>v5</version>
+            <type>jar</type>
         </dependency>
 
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-devtools</artifactId>
-            <scope>runtime</scope>
-            <optional>true</optional>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
+            <groupId>gt.edu.umg.ingenieria.sistemas.ingenieria_software.parcial2</groupId>
+            <artifactId>sort_string</artifactId>
+            <version>v2</version>
         </dependency>
         <dependency>
             <groupId>gt.edu.umg.ingenieria.sistemas.ingenieria</groupId>
             <artifactId>brbble_sort</artifactId>
             <version>v1.0</version>
         </dependency>
+
+        <dependency>
+            <groupId>gt.edu.umg.ingenieria.sistemas.ingenieria_software.parcial2</groupId>
+            <artifactId>insertion_sort</artifactId>
+            <version>v1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>gt.edu.umg.ingenieria.sistemas.ingenieria_software.parcial2</groupId>
+            <artifactId>sort_marge</artifactId>
+            <version>v1</version>
+        </dependency>
+
     </dependencies>
 
     <build>
@@ -52,18 +62,7 @@
             </plugin>
         </plugins>
     </build>
+   
 
-    <distributionManagement>
-        <repository>
-            <id>central</id>
-            <name>b081a5266b12-releases</name>
-            <url>http://localhost:8081/artifactory/IS_P2_BUBBLE_SORT</url>
-        </repository>
-        <snapshotRepository>
-            <id>snapshots</id>
-            <name>b081a5266b12-snapshots</name>
-            <url>http://localhost:8081/artifactory/IS_P2_BUBBLE_SORT</url>
-        </snapshotRepository>
-    </distributionManagement>
 
 </project>
