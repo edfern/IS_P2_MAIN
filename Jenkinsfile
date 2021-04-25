@@ -11,7 +11,7 @@ pipeline{
 					id: 'MAVEN_DEPLOYER',
 					serverId: 'artifactory',
 					releaseRepo: 'ingenieria_software_parcial2',
-					snapshotRepo: 'libs-snapshot-local',
+					snapshotRepo: 'ingenieria_software_parcial2',
 				)
 				rtMavenRun (
 					// Tool name from Jenkins configuration.
